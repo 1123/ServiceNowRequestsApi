@@ -1,8 +1,7 @@
 This project provides a scripted REST Api for getting all request related information from ServiceNow. 
 This project is work in progress. Feedback, feature requests, bug reports and pull requests are very welcome. 
 
-Use-Case
-========
+#### Use-Case
 
 1. Consider a ServiceNow instance with a configurable laptop in the service catalog. 
 
@@ -23,13 +22,12 @@ cumbersome and error-prone process since it requires many https requests,
 filters and joins between tables. Therefore this project provides a server side
 scripted REST API for getting all request related information with a single http request.
 
-Installation
-============
+#### Installation
+
 Copy the contents of the file `js/requests.js` and insert it into a newly created
 scripted REST api endpoint on your ServiceNow installation.
 
-Testing
-=======
+#### Testing
 
 Adapt the script `bash/getRequests.sh` to use your ServiceNow API endpoint, username and password. Then run the script.
 
